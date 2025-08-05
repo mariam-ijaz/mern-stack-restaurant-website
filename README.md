@@ -1,49 +1,51 @@
-# 🍽️ MERN Stack Restaurant Website
+# 🍽️ Restaurant Ordering Web Application (MERN Stack)
 
-A fully functional **restaurant website** built using the **MERN Stack** —  
-**MongoDB**, **Express.js**, **React.js**, and **Node.js**.
+A modern **Restaurant Website** built using the **MERN Stack** – MongoDB, Express.js, React.js, and Node.js. This application allows users to **browse menu items**, **add food to cart**, **place orders**, and **manage their accounts** through a secure login/logout system.
 
-This project allows restaurant owners to **manage their menu**, handle **online orders**, and provide a **modern, user-friendly interface** for customers to browse dishes and place orders.
-
-Ideal for learning **full-stack development**, **API integration**, and **responsive UI design**.
+Perfect for developers, students, or startups building online food ordering systems.
 
 ---
 
 ## 🚀 Features
 
-- 🧾 **Menu Management** – Add, edit, and delete food items with images, price, and category.
-- 🛒 **Online Ordering** – Customers can add items to a cart and place an order.
-- 🔍 **Filter by Category** – Easily browse dishes (e.g., starters, main course, desserts).
-- 🖼️ **Image Uploading** – Upload dish images (via cloud or local storage).
-- 📦 **Order Dashboard** – Admin can see all placed orders and order details.
-- 📝 **Contact Page** – Collect feedback and reservation requests from users.
-- 📱 **Fully Responsive UI** – Optimized for mobile, tablet, and desktop.
-- 🌐 **RESTful APIs** – Built with Express for modular, clean backend routes.
+### 🧑‍🍳 For Users
+- 🔐 **User Registration & Login**
+- 🧾 **Browse Menu** with images, prices, and descriptions
+- 🛒 **Add to Cart** – Manage quantities, calculate totals
+- 📦 **Place Orders** with delivery or pickup option
+- 👤 **User Dashboard** – View order history and profile
+
+### 💼 For Admins *(optional extension)*
+- 🍽️ Manage menu items – Add, update, delete dishes
+- 📋 View and update customer orders
+- 📊 Monitor sales and performance
+
+### 🔧 Core Features
+- ⚙️ RESTful API design
+- 🔒 JWT-based Authentication
+- 💡 Responsive Design using modern CSS (Tailwind/Bootstrap)
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-### 🖥️ Frontend (React.js)
+### 🌐 Frontend
+- **React.js** – Interactive UI with components
+- **React Router DOM** – Page navigation
+- **Axios** – Communicating with backend APIs
+- **Tailwind CSS** or **Bootstrap** – Responsive and mobile-friendly UI
 
-- **React.js** – Component-based UI
-- **React Router** – For navigation and dynamic routes
-- **Axios** – For API calls to the backend
-- **Bootstrap / Tailwind CSS** – For modern and responsive design
-- **React Hooks** – `useState`, `useEffect`, `useContext` for state management
+### 🖥️ Backend
+- **Node.js** – JavaScript runtime for server logic
+- **Express.js** – Web framework for API routes
+- **JWT** – Secure token-based authentication
+- **bcrypt.js** – Password encryption
+- **Multer** – Image upload for food items (optional)
 
-### 🔗 Backend (Node.js + Express)
+### 🗄️ Database
+- **MongoDB** – Stores user data, menu items, and orders
+- **Mongoose** – ODM to manage MongoDB schemas
 
-- **Node.js** – JavaScript runtime
-- **Express.js** – Backend framework to build APIs
-- **Mongoose** – MongoDB object modeling
-- **CORS** – To handle cross-origin requests
-- **dotenv** – Manage environment variables
-- **Multer / Cloudinary** – For file/image uploads
 
-### 🗃️ Database
-
-- **MongoDB** – NoSQL database to store menu items, orders, and user messages
-- **MongoDB Atlas** – Cloud-hosted MongoDB for production-ready deployments
 
 
